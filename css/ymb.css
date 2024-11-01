@@ -1,0 +1,99 @@
+/**
+ * Yandex Money Button
+ * Guteneberg block styles
+ *
+ * @package ymb
+ * @since 1.0.0
+ */
+
+/**
+ * @since 2.1.0 Add text-decoration property
+ * @since 1.0.0
+ */
+.wp-block-ymb-button button {
+	display: inline-block !important;
+ 	position: relative !important;
+ 	box-sizing: border-box !important;
+ 	height: 36px !important;
+ 	padding: 0 !important;
+ 	margin: 0 !important;
+ 	outline: none !important;
+ 	border-radius: 3px !important;
+    font-size: 20px !important;
+    border: 1px solid rgba(0,0,0,.1) !important;
+    font-weight: 400 !important;
+    font-style: normal !important;
+	transition: background-color .1s ease-out 0s !important;
+	text-decoration: none !important;
+}
+
+/**
+ * @since 2.1.0 Add text-decoration property
+ * @since 1.0.0
+ */
+.wp-block-ymb-button button:hover {
+	border-radius: 3px !important;
+	border: 1px solid rgba(0,0,0,.1) !important;
+	text-decoration: none !important;
+}
+
+
+/**
+ * @since 2.1.0 Add text-decoration property
+ * @since 1.0.1
+ */
+.wp-block-ymb-button button:focus {
+	border-radius: 3px !important;
+	border: 1px solid rgba(0,0,0,.1) !important;
+	box-shadow: none !important;
+	text-decoration: none !important;
+}
+
+/**
+ * @since 2.1.0	Remove display: inline-block due to float property
+ * @since 2.0.0	add class to div selector
+ * @since 1.0.0
+ */
+.wp-block-ymb-button button div.wp-block-ymb-button-div {
+	position: relative !important;
+	box-sizing: border-box !important;
+	border-right: none !important;
+	border-left: 1px solid rgba(0,0,0,.1) !important;
+	border-top: 1px solid rgba(0,0,0,.1) !important;
+	border-bottom: 1px solid rgba(0,0,0,.1) !important;
+	border-top-left-radius: 3px !important;
+	border-bottom-left-radius: 3px !important;
+	float: left !important;
+	width: 50px !important;
+	height: 36px !important;
+	background-color: #f8f8f8 !important;
+	text-align: center !important;
+	margin-left: -1px !important;
+	margin-top: -1px !important;
+	padding-top: 5px !important;
+}
+
+/**
+ * @since 2.0.0	add class to span selector
+ * @since 1.0.0
+ */
+.wp-block-ymb-button button span.wp-block-ymb-button-span {
+
+	/**
+	 *
+	 * @since 2.0.0
+	 */
+	font-family: 'Helvetica', 'Arial', 'Tahoma', sans-serif;
+	display: inline-block !important;
+	height: 34px !important;
+	text-align: center !important;
+	margin: 0 20px !important;
+	line-height: 33px !important;
+}
+
+/**
+ * @since 2.0.0
+ */
+.wp-block-ymb-button .editor-rich-text {
+	float: left !important;
+}
